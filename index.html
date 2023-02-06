@@ -1,4 +1,25 @@
 <!DOCTYPE html>
+<style>
+     enter-button {
+        height: 0px;
+        width: 0px;
+        border-radius: 50%;
+        border: none;
+        background-color: dodgerblue;
+        color: rgb(4, 157, 204);
+        font-size: 18px;
+        cursor: pointer;
+        animation: bounce 2s ease;
+      }
+      @keyframes slideIn {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0%);
+        }
+      }
+</style>
 <html>
   <head>
     <title>4d3m for adobe</title>
@@ -99,14 +120,7 @@
 <html>
   <head>
     <style>
-      .search-container {
-        display: flex;
-        align-items: center;
-        width: 50%;
-        margin: 0 auto;
-        animation: fadeIn 2s ease;
-      }
-      
+
       .search-bar {
         width: 100%;
         padding: 10px;
